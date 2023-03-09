@@ -1,13 +1,23 @@
 package com.dio;
 
+import com.dio.model.Gato;
+
 public class PrimeiroPrograma {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int a = 2;
+		Gato gato = new Gato();
+		Livros Livros = new Livros();
+		
+		/*int a = 2;
 		int b = 3;
-		System.out.println("Hello World! " + (a+b));
+		System.out.println("Hello World! " + (a+b));*/
 	}
 
+}
+
+class Livros {
+	private String nome;
+	private String npag;
 }
